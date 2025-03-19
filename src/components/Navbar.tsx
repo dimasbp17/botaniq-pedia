@@ -1,4 +1,5 @@
 import logo_white from '../../public/assets/images/white-logo.png';
+import Search from './Search';
 
 const Navbar: React.FC = () => {
   return (
@@ -10,7 +11,9 @@ const Navbar: React.FC = () => {
             alt=""
             className="w-10"
           />
-          <div>lo</div>
+          <div>
+            <Search />
+          </div>
         </div>
       </div>
     </>
